@@ -1,0 +1,9 @@
+Dependencies
+
+numpy
+torch
+scipy
+pandas
+mne
+statsmodels
+matplotlib
