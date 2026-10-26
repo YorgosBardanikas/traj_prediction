@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 from dataclasses import dataclass
-from utils import logger
+from scripts.utils import logger
 from torch.utils.data import TensorDataset, DataLoader
 
 

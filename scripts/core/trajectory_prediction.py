@@ -1,11 +1,11 @@
 
 import os
 import mne
-import utils
 import torch
 import pickle
 import numpy as np
-import helper_funcs as funcs
+from scripts import utils
+import scripts.helper_funcs as funcs
 from trajectory_models import Config, train_CNN, train_GRU
 
 

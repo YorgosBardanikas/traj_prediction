@@ -1,13 +1,13 @@
 
 import os
 import mne
-import utils
 import torch
 import pickle
 import numpy as np
 import torch.nn as nn
-from utils import logger, path_to_save
-from helper_funcs import reveal_trajectory
+from scripts import utils
+from scripts.utils import logger, path_to_save
+from scripts.helper_funcs import reveal_trajectory
 from torch.utils.data import TensorDataset, DataLoader
 
 # --- RNN class ---
